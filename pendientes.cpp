@@ -12,20 +12,19 @@ class Punto {
 		
 		cout << "Ingrese la coordenada x del primer punto de la primera recta: ";
 		cin >> x1;
-		cout << "La coordenada x del primer punto de la primera recta ingresada es: " << x1 << endl;
-		cout << "Ingrese las coordenada y del primer punto de la primera recta: ";
+		cout << "Ingrese la coordenada y del primer punto de la primera recta: ";
 		cin >> y1;
-		cout << "Ingrese las coordenada x del segundo punto de la primera recta: ";
+		cout << "Ingrese la coordenada x del segundo punto de la primera recta: ";
 		cin >> x_1;
-		cout << "Ingrese las coordenada y del segundo punto de la primera recta: ";
+		cout << "Ingrese la coordenada y del segundo punto de la primera recta: ";
 		cin >> y_1;
-		cout << "Ingrese las coordenada x del primer punto de la segunda recta: ";
+		cout << "Ingrese la coordenada x del primer punto de la segunda recta: ";
 		cin >> x2;
-		cout << "Ingrese las coordenada y del primer punto de la segunda recta: ";
+		cout << "Ingrese la coordenada y del primer punto de la segunda recta: ";
 		cin >> y2;
-		cout << "Ingrese las coordenada x del segundo punto de la segunda recta: ";
+		cout << "Ingrese la coordenada x del segundo punto de la segunda recta: ";
 		cin >> x_2;
-		cout << "Ingrese las coordenada y del segundo punto de la segunda recta: ";
+		cout << "Ingrese la coordenada y del segundo punto de la segunda recta: ";
 		cin >> y_2;
 		}
 		
@@ -55,7 +54,7 @@ class Recta : public Punto
 			cout << "El valor de la pendiente de la segunda recta es:  " << m2 << endl;
 			
 			if (m1 == m2)
-			cout << "Las rectas son paralela\n";
+			cout << "Las rectas son paralelas\n";
 		
 			if (m1 == -m2 && m2 == -m1)
 			{
